@@ -1,0 +1,4 @@
+interface:
+  display_name: "Silas GPT Codex Orchestrator"
+  short_description: "ChatGPT plans and reviews; Codex builds and verifies."
+  default_prompt: "Use $silas-gpt-codex-orchestrator to check my connection and project, guide me through a first small collaboration if needed, and deliver a preview with actual check results."
