@@ -1,0 +1,21 @@
+# Publish only the package, documentation, and tests listed below.
+/*
+!/.gitignore
+!/README.md
+!/README.zh-CN.md
+!/LICENSE
+!/silas-gpt-codex-orchestrator/
+!/tests/
+!/docs/
+/docs/*
+!/docs/validation.md
+!/docs/validation.zh-CN.md
+**/node_modules/
+**/dist/
+**/.tooling/
+**/__pycache__/
+**/.DS_Store
+*.log
+.env*
+!.env.example
+/silas-gpt-codex-orchestrator/references/provenance.md
